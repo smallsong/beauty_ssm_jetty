@@ -17,3 +17,6 @@
 ![](http://i.imgur.com/vc6iu0X.png)
 
 ###增加jetty启动项目的配置###
+
+###原项目地址###
+https://github.com/wosyingjun/beauty_ssm
