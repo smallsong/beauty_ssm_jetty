@@ -1,6 +1,6 @@
 package com.yingjun.ssm;
 
-import com.yingjun.ssm.server.JettyServerStart;
+import com.micai.jetty.start.JettyServerStart;
 
 public class BeautyStart {
 

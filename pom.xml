@@ -14,6 +14,12 @@
 	</properties>
 
 	<dependencies>
+		<!-- jetty start -->
+		<dependency>
+			<groupId>com.micai.jetty.start</groupId>
+			<artifactId>jetty-start</artifactId>
+			<version>1.0.1-SNAPSHOT</version>
+		</dependency>
 		<!--common start -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
