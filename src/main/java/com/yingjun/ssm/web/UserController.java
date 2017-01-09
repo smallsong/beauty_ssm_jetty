@@ -31,4 +31,12 @@ public class UserController {
 		return "userlist";
 	}
 
+	@RequestMapping(value = "/add",method = RequestMethod.GET)
+	public String add(Model model, User user){
+		LOG.info("invoke----------/user/add");
+		long len = userService.addUser(user);
+		model.addAttribute("len", len);
+		return "add";
+	}
+
 }

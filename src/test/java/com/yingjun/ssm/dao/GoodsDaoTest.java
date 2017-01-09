@@ -34,7 +34,7 @@ public class GoodsDaoTest {
 		System.out.println("--------------------------");
 	}
 
-	@Test
+	/*@Test
 	public void testBugWithProcedure() {
 		Map<String,Object> map=new HashMap<String,Object>();
 		map.put("userId", 1000L);
@@ -44,6 +44,6 @@ public class GoodsDaoTest {
 		goodsDao.bugWithProcedure(map);
 		//获取result
 		System.out.println("testBugWithProcedure result:"+map.get("result"));
-	}
+	}*/
 
 }

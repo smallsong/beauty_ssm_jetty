@@ -48,4 +48,14 @@ public class UserDaoTest {
 		}
 	}
 
+	@Test
+	public void testAddUser(){
+		User user = new User();
+		user.setUserName("赵新国");
+		user.setUserPhone(18611966723L);
+		user.setScore(20);
+		long len = userDao.addUser(user);
+		System.out.println(len);
+	}
+
 }

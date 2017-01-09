@@ -31,5 +31,10 @@ public interface UserDao {
      * 增加积分
      */
     void addScore(@Param("add")int add);
+
+    /**
+     * 增加用户
+     */
+    long addUser(User user);
 	
 }

@@ -36,7 +36,12 @@ public class UserServiceImpl implements UserService {
 		}
 		return result_cache;
 	}
-	
-	
+
+	@Override
+	public long addUser(User user) {
+		long len = userDao.addUser(user);
+		return len;
+	}
+
 
 }
